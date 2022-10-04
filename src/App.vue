@@ -1,19 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import Nav from "./components/shared/nav.vue";
 </script>
 
 <template>
   <header>
-
-    <div>
-      <h2 class="text-3xl font-bold underline">Hello world!</h2>
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
+    <Nav />
   </header>
-
   <RouterView />
 </template>
