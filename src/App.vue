@@ -6,6 +6,7 @@ import Nav from "./components/shared/nav.vue";
 <template>
   <header>
     <Nav />
+    <div class="h-96 w-full bg-gray-200"></div>
   </header>
   <RouterView />
 </template>
